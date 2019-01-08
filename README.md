@@ -31,19 +31,9 @@ Variable   | Description                                                        
 
 
 
-
-
-
-
-
-
-
-
-
-
 ## Usage scenario
 
 John is a political scientist studying the trend of various crimes in major U.S. cities in order to provide policy advice to law makers. He first can [select] a particular crime of interest, for example rape, then he can [visualize] the average rate of that crime of all U.S. cities in a given time span. If he wish to see the trend of a particular city, he can [select] that city and see its crime rate for the type of crime he selected. Furthermore, he can [compare] the crime rate trend of that city with the national average or with another city. Based on this comparasion, he can identify the cities whose crime rate trends diverage drastically with the national trend and find association between municipal/state policy and crime rate. 
 
-## section 4 
+## App Sketch
 
