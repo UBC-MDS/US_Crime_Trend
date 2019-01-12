@@ -37,3 +37,4 @@ John is a political scientist studying the trend of various crimes in major U.S.
 
 ## App Sketch
 
+![](img/app_sketch.png)
