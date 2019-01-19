@@ -6,45 +6,68 @@
 #
 #    http://shiny.rstudio.com/
 #
-
 library(shiny)
+library(tidyverse)
+library(ggplot2)
+us_crime <- read.csv("ucr_crime_1975_2015.csv", stringsAsFactors = FALSE)
 
-# Define UI for application that draws a histogram
+
 ui <- fluidPage(
-   
-   # Application title
-   titlePanel("Old Faithful Geyser Data"),
-   
-   # Sidebar with a slider input for number of bins 
-   sidebarLayout(
-      sidebarPanel(
-         sliderInput("bins",
-                     "Number of bins:",
-                     min = 1,
-                     max = 50,
-                     value = 30)
-      ),
+  titlePanel("US Crime Trends"),
+  
+  sidebarLayout(
+    
+    sidebarPanel(
+      h4("Interactive Visualization of US Crime Rate"), 
+      "An endeavout to insights on the crime rates in different cities across the US",
+      hr(),
+      sliderInput("Year",
+                  label = "From Year",
+                  min = 1975,
+                  max = 2015,
+                  value = c(1975,2015),
+                  sep=""),
+      radioButtons('Crime', "please choose", 
+                   
+                   choices = c("violent_per_100k", "homs_per_100k"),
+                   
+                   selected = "homs_per_100k"),
       
-      # Show a plot of the generated distribution
-      mainPanel(
-         plotOutput("distPlot")
-      )
-   )
+      selectInput("City",
+                  label = "city",
+                  choices = unique(us_crime$department_name),
+                  selected = "Atlanta")
+    ),
+    
+    
+    mainPanel(
+      plotOutput("trend")
+    )
+  )
 )
 
-# Define server logic required to draw a histogram
+
 server <- function(input, output) {
-   
-   output$distPlot <- renderPlot({
-      # generate bins based on input$bins from ui.R
-      x    <- faithful[, 2] 
-      bins <- seq(min(x), max(x), length.out = input$bins + 1)
-      
-      # draw the histogram with the specified number of bins
-      hist(x, breaks = bins, col = 'darkgray', border = 'white')
-   })
+  
+  observe(print(input$City))
+  
+  
+  data_filtered <- reactive({
+    us_crime%>% 
+      filter(department_name==input$City) %>% 
+      filter(year>=min(input$Year))%>% 
+      filter(year<= max(input$Year)) %>% 
+      select(year,input$Crime)
+    
+  })
+  
+  output$trend <- renderPlot({
+    thing=input$Crime
+    data=data_filtered()
+    data %>% 
+      ggplot(aes(x = year, y = data[,2] ))+geom_line()
+  })
 }
 
 # Run the application 
 shinyApp(ui = ui, server = server)
-
