@@ -27,7 +27,7 @@ The crime data from 1975 to 2015 has been collected and aggregated by the the Ma
 The app is highly user friendly and easy to use. <br> The Front page looks like the image below and it contains following
 features:
 
-![](\img\app_overview.PNG)
+![](img/app_overview.png)
 
 1. Year (Slider)
 2. city (Drop Down)
@@ -35,25 +35,25 @@ features:
 
 ##### 1. Year Slider
 
-![](year_slider.PNG)
+![](img/year_slider.png)
 
 A range of year can be selected from 1975 to 2015.
 
 ##### 2. city
 
-![](city_dropdown.PNG)
+![](img/city_dropdown.png)
 
 User can select the city for which crime trend has to be viewed.
 
 ##### 3. Crime Type (please choose)
 
-![](crime_type_radio.PNG)
+![](img/crime_type_radio.png)
 
 The type of crime for a selected city and year range can be chose here.
 
 #### Plot
 
-![](crime_trend.PNG)
+![](img/crime_trend.png)
 
 This plot shows the violent crime trend for the city of Atlanta from the 1983 - 2001 for the crime type of violent crimes per 100,000 people.
 
