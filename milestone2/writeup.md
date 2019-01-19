@@ -35,34 +35,33 @@ features:
 
 ##### 1. Year Slider
 
-![Year](/figure/Year_Slider.PNG)
+![Year](/img/year_slider.PNG)
 
-The Year slider can be used to choose from 1975 to 2014 by just sliding the bar. All the
-results will be displayed only for the chosen year range.
+A range of year can be selected from 1975 to 2015.
 
 ##### 2. city
 
-![State_Selector](/figure/State_Selector_1.PNG)
+![city](/img/city_dropdown.PNG)
 
-The State selector can be used to choose the state for which we want to see the crime data.
-Users can chose out of the shown 6 states.
+User can select the city for which crime trend has to be viewed.
 
 ##### 3. Crime Type (please choose)
 
-![Dep_selector](/figure/Dep_Selector.PNG)
+![crime type](/img/crime_type_radio.PNG)
 
-User can chose out of total 30 departments/Jurisdictions and see the crime data for specific department within that state.
+The type of crime for a selected city and year range can be chose here.
 
-#### Panel 1
+#### Plot
 
-![](/figure/Crime_Line_Plot.PNG)
+![](/img/crime_trend.PNG)
 
-Panel 1 shows the line plot for the selected State, Department and the year of interest. Different
-crimes are shown for each of these years through different colors as shown by the legend.
-
+This plot shows the violent crime trend for the city of Atlanta from the 1983 - 2001 for the crime type of violent crimes per 100,000 people.
 
 
 #### Next Steps :
 
-We aim to fine tune the features of the app next week. We want to display only the departments
-corresponding to the chosen state in the drop down menu instead of all the departments.
+ - We plan to bring more insights to the application based on the proportion of each crimes committed and assign a score for a specific period. 
+ 
+ - A refined data wrangling is required to fine tune the data based on states and population
+ 
+ - More visualizations like a heat map of various crimes for each city
