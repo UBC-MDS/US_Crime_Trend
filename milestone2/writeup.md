@@ -27,7 +27,7 @@ The crime data from 1975 to 2015 has been collected and aggregated by the the Ma
 The app is highly user friendly and easy to use. <br> The Front page looks like the image below and it contains following
 features:
 
-![](app_overview.PNG)
+![](\img\app_overview.PNG)
 
 1. Year (Slider)
 2. city (Drop Down)
