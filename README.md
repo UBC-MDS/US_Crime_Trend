@@ -6,7 +6,7 @@ Law and order has always been a huge topic in U.S. politics, with presidents dec
 
 ## Description of the data
 
-Our team will visualize the trends of crimes (violent_per_100k,homs_per_100k,rape_per_100k,rob_per_100k,agg_ass_per_100k) in the US cities(department_name) occured from 1975 till 2015. We will provide a trend of various crime rate of cities for the top 10 most populated cities(total_pop) using Shiny app. An interactive trend involving a type of crime (violent_per_100k,homs_per_100k,rape_per_100k,rob_per_100k,agg_ass_per_100k) facetted across various cities over a time period is also part of the proposal. The columns of the data  
+Our team will visualize the trends of crimes (violent_per_100k,homs_per_100k,rape_per_100k,rob_per_100k,agg_ass_per_100k) in the US cities(department_name) occured from 1975 till 2015. We will provide a trend of various crime rate of cities for the top 10 most populated cities(total_pop) using Shiny app. An interactive trend involving a type of crime (violent_per_100k,homs_per_100k,rape_per_100k,rob_per_100k,agg_ass_per_100k) facetted across various cities over a time period is also part of the proposal. The columns of the data:  
 
 
 Variable   | Description                                                                                                                                                                                                                                                                                                   |
