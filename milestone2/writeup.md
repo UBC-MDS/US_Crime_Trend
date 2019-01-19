@@ -27,7 +27,7 @@ The crime data from 1975 to 2015 has been collected and aggregated by the the Ma
 The app is highly user friendly and easy to use. <br> The Front page looks like the image below and it contains following
 features:
 
-![App OVerview](app_overview.PNG)
+![](app_overview.PNG)
 
 1. Year (Slider)
 2. city (Drop Down)
@@ -35,19 +35,19 @@ features:
 
 ##### 1. Year Slider
 
-![Year](year_slider.PNG)
+![](year_slider.PNG)
 
 A range of year can be selected from 1975 to 2015.
 
 ##### 2. city
 
-![city](city_dropdown.PNG)
+![](city_dropdown.PNG)
 
 User can select the city for which crime trend has to be viewed.
 
 ##### 3. Crime Type (please choose)
 
-![crime type](crime_type_radio.PNG)
+![](crime_type_radio.PNG)
 
 The type of crime for a selected city and year range can be chose here.
 
