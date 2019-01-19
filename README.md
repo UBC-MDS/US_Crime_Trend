@@ -11,23 +11,19 @@ Our team will visualize the trends of crimes (violent_per_100k,homs_per_100k,rap
 
 Variable   | Description                                                                                                                                                                                                                                                                                                   |
 | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ORI    | Unique Identifier                                                                                                                                                                                                                                                                                           |
-| department_name    | City from where the data was reported                                                                                                                                                                                                                                                                                            |
-| total_pop     | Population of the city                                                                                                                                                                                                                                                                                                          |
-| homs_sum    | Number of  reported homicides                                                                                                                                                                                                                                                               |
-| rape_sum        | Number of reported rapes                                                                                                                                                                                                                                                                                        |
-| rob_sum     | Number of reported robbery                                                                                                                                                                                                                                                                            |
-| agg_ass_sum         | Number of aggravated assault reports                                                                                                                                                                                                                                                                |
-
-| race    | White, Asian-Pac-Islander, Amer-Indian-Eskimo, Other, Black                                                                                                                                                                                                                                                                                              |
-| violent_crime | Total of all reported crimes                                                                                                                                                                                                                                                  |
+| department_name    | City from where the data was reported|
+| total_pop     | Population of the city |
+| homs_sum    | Number of  reported homicides|
+| rape_sum        | Number of reported rapes|
+| rob_sum     | Number of reported robbery |
+| agg_ass_sum         | Number of aggravated assault reports|
+| violent_crime | Total of all reported crimes|
 | violent_per_100k| Number of violent crimes per population of 100,000  |
 | homs_per_100k     | Number of homicides crimes per population of 100,000    |
 | rape_per_100k        | Number of rapes crimes per population of 100,000   |
 | rob_per_100k| Number of robbery crimes per population of 100,000|
 | agg_ass_per_100k| Number of aggravated assault crimes per population of 100,000|
-| source| NA|
-| url| NA|
+
 
 
 
