@@ -1,6 +1,10 @@
 # US_Crime_Trend
 <sup>Yenan Zhang ([YenanZ](https://github.com/YenanZ)) and Krish Andivel ([Gopsathvik](https://github.com/Gopsathvik)) </sup>
 
+Please find the app at https://github.com/UBC-MDS/US_Crime_Trend/blob/master/milestone2/app.R
+
+Everything for milestone2 is in the milestone2/ folder
+
 ## Overview 
 Law and order has always been a huge topic in U.S. politics, with presidents declaring war on crimes and painting the society as increasingly unsafe and violent. However, is it based on facts or just plain fear-mongering? What are the cities whose crime rate increased or decreased drastically? This visualization app allows you to see the trend of various kind of violent crimes( rape, homicide, robbery, assualt) across different U.S. cities. 
 
