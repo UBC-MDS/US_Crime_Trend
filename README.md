@@ -8,6 +8,8 @@ Everything for milestone2 is in the milestone2/ folder
 ## Feedbacks 
 https://github.com/UBC-MDS/CrimeVisualizer/issues/16
 
+https://github.com/UBC-MDS/us-police-shootings-analysis/issues/9
+
 ## Overview 
 Law and order has always been a huge topic in U.S. politics, with presidents declaring war on crimes and painting the society as increasingly unsafe and violent. However, is it based on facts or just plain fear-mongering? What are the cities whose crime rate increased or decreased drastically? This visualization app allows you to see the trend of various kind of violent crimes( rape, homicide, robbery, assualt) across different U.S. cities. 
 
