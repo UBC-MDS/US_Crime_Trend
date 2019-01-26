@@ -33,16 +33,21 @@ know some more functionalities that cna developed using shiny app. The feedback 
 
 ##### 1. Year Slider
 
-![](year_slider.png)
+![](/milestone2/year_slider.png)
 
 A range of year can be selected from 1975 to 2015.
 
 ##### 2. city
 
+![](city2_dropdown.png)
+
+
+
 ![](city1_dropdown.png)
-![](city2_dropdown.png
+
 
 User can select the city for which crime trend has to be viewed.
+
 
 ##### 3. Crime Type (please choose)
 
