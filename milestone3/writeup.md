@@ -18,8 +18,8 @@ know some more functionalities that cna developed using shiny app. The feedback 
 
 ## Implemented suggestion from peer Review:
 
-- Included more all the crime types
-- Modified the trend graph deisgn
+- Included more of the crime types
+- Modified the trend graph design
 - Added labels appropriately
 - Inlcuded two city comparisons for a particular crime type
 
