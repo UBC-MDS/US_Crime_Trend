@@ -61,7 +61,7 @@ The type of crime for a selected city and year range can be chose here.
 
 ![](title_label_trend.png)
 
-This plot shows the violent crime trend for the city of Atlanta from the 1983 - 2001 for the crime type of violent crimes per 100,000 people.
+This plot shows the homicide per 100k citizens trend for the city of Atlanta and Chicago from the 1987 - 2006 for the crime type of violent crimes per 100,000 people.
 
 
 
