@@ -39,21 +39,25 @@ A range of year can be selected from 1975 to 2015.
 
 ##### 2. city
 
-![](city_dropdown.png)
+![](city1_dropdown.png)
+![](city2_dropdown.png
 
 User can select the city for which crime trend has to be viewed.
 
 ##### 3. Crime Type (please choose)
 
-![](crime_type_radio.png)
+![](crime_type.png)
 
 The type of crime for a selected city and year range can be chose here.
 
 #### Plot
 
-![](crime_trend.png)
+![](title_label_trend.png)
 
 This plot shows the violent crime trend for the city of Atlanta from the 1983 - 2001 for the crime type of violent crimes per 100,000 people.
+
+
+
 
 
 
