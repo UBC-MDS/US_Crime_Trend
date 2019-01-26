@@ -2,6 +2,8 @@
 
 ## Feedback links
 
+Feedback provided by our team during peer review:
+
 https://github.com/UBC-MDS/us-police-shootings-analysis/issues/9
 
 https://github.com/UBC-MDS/CrimeVisualizer/issues/16
