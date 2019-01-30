@@ -34,8 +34,8 @@ We would decide which features to be taken up based on the time available and pr
 - Shiny App is very flexible
 - We had difficulty figuring out various functions in shiny app and the operations within the widgets
 
-
-![](app_overview.png)
+## App Screenshots
+![](overview.png)
 
 1. Year (Slider)
 2. Type of Crime (Radio Button)
