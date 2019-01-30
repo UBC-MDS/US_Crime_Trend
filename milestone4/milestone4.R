@@ -5,6 +5,7 @@ library(ggplot2)
 us_crime <- read.csv("ucr_crime_1975_2015.csv")
 
 
+
 ui <- fluidPage(
   titlePanel("US Crime Trends"),
   
@@ -23,7 +24,11 @@ ui <- fluidPage(
       # user can select crime 
       radioButtons('Crime', "Type of Crime", 
                    
-                   choices = c("violent_per_100k", "homs_per_100k", 'rape_per_100k','rob_per_100k','agg_ass_per_100k'),
+                   choices = list('Violent Crimes' = "violent_per_100k", 
+                                  'Homicide Crimes' =  "homs_per_100k",
+                                  'Rape Crimes' = 'rape_per_100k',
+                                  'Robbery Crimes' = 'rob_per_100k',
+                                  'Aggravated Assault' = 'agg_ass_per_100k'),
                    
                    selected = "homs_per_100k"),
       # user can select up to 3 cities
@@ -63,7 +68,7 @@ server <- function(input, output) {
       ggplot(aes(x = year,y = data[,2],group=department_name))+
       geom_line(aes(color=department_name,group=department_name))+
       geom_point()+
-      ylab(input$Crime)+
+      ylab("Number of occurence / 100k citizens")+
       theme_light()+
       ggtitle('Crime trend Comparison')
   })
